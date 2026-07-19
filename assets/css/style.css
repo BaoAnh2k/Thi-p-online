@@ -135,7 +135,7 @@ code { padding: .12em .35em; border-radius: .35em; background: rgba(197,47,80,.1
 
 /* Hero */
 .hero { position: relative; min-height: 100svh; display: grid; place-items: center; overflow: hidden; color: var(--white); }
-.hero__media { position: absolute; inset: -8%; background: url("../images/cover.jpg") center 35% / cover no-repeat; transform: scale(1.08); will-change: transform; }
+.hero__media { position: absolute; inset: -8%; background: url("../images/anht1.png") center 35% / cover no-repeat; transform: scale(1.08); will-change: transform; }
 .hero__veil { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(39,21,24,.28), rgba(52,23,28,.1) 35%, rgba(43,23,25,.74)); }
 .hero__grain { position: absolute; inset: 0; opacity: .1; mix-blend-mode: soft-light; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E"); }
 .hero__content { position: relative; z-index: 2; width: min(900px, calc(100% - 36px)); padding: 120px 0 100px; text-align: center; }
